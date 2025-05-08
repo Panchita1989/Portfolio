@@ -1015,7 +1015,8 @@ label {
   display: block;
   font-size: 0.9em;
   font-weight: 600;
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0;
+   }
 
 input[type="text"],
 input[type="password"],
@@ -1082,7 +1083,8 @@ input[type="tel"],
 input[type="search"],
 input[type="url"],
 select {
-  height: 2.75em; }
+  height: 2.75em; 
+  display: block;}
 
 textarea {
   padding: 0.75em 1em; }
@@ -1864,6 +1866,12 @@ button,
       border-top: solid 2px rgba(210, 215, 217, 0.75); }
       #main > .inner > section:first-of-type {
         border-top: 0 !important; }
+  .contact-form h2{
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0; }   
+  
   @media screen and (max-width: 1680px) {
     #main > .inner {
       padding: 0 5em 0.1em 5em ; }
