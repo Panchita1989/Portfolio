@@ -2281,6 +2281,22 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+  .backToTop{
+    
+    position: fixed;
+    bottom: 25px;
+    right: 50%;
+    font-size: 35px;
+    z-index: 1000;
+    transition: 0.5s;
+    display: none ;
+  }
+  .backToTop:hover{
+    transform: scale(1.1);
+  }
+  .visible{
+    display: block;
+  }
 
 
     
