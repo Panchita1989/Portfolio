@@ -138,6 +138,11 @@
 						}, 500);
 
 				});
+				document.querySelector('.contact-me').addEventListener('click', contact)
+
+				function contact(){
+					document.querySelector('.contact-form').scrollIntoView({behavior:'smooth'})
+				}
 
 			// Prevent certain events inside the panel from bubbling.
 				$sidebar.on('click touchend touchstart touchmove', function(event) {
